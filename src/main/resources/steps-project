@@ -9,5 +9,6 @@ psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
 //entra no banco
 psql -h localhost -U postgres_user_city cities
 
+//habilita no postgree o calculo de distancia com operador especifico "<@>"
 CREATE EXTENSION cube;
 CREATE EXTENSION earthdistance;

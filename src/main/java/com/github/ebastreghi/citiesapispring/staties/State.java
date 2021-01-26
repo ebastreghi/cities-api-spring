@@ -12,10 +12,12 @@ import javax.persistence.Table;
 
 import com.github.ebastreghi.citiesapispring.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
+import lombok.Data;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
 
+@Data
 @Entity(name = "State")
 @Table(name = "estado")
 @TypeDefs({
@@ -52,34 +54,4 @@ public class State {
     @Column(name = "ddd", columnDefinition = "jsonb")
     private List<Integer> ddd;
 
-    public State() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getUf() {
-        return uf;
-    }
-
-    public Integer getIbge() {
-        return ibge;
-    }
-
-    public List<Integer> getDdd() {
-        return ddd;
-    }
-
-    public Country getCountry() {
-        return country;
-    }
-
-  /*public Integer getCountryId() {
-      return countryId;
-  }*/
 }

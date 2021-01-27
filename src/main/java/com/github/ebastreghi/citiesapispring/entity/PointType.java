@@ -1,4 +1,4 @@
-package com.github.ebastreghi.citiesapispring.cities;
+package com.github.ebastreghi.citiesapispring.entity;
 
 import java.io.Serializable;
 import java.sql.PreparedStatement;

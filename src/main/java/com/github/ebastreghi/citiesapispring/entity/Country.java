@@ -1,4 +1,4 @@
-package com.github.ebastreghi.citiesapispring.countries;
+package com.github.ebastreghi.citiesapispring.entity;
 
 import lombok.Data;
 

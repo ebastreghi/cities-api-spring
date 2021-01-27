@@ -1,9 +1,11 @@
-package com.github.ebastreghi.citiesapispring.cities;
+package com.github.ebastreghi.citiesapispring.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import com.github.ebastreghi.citiesapispring.entity.PointType;
 import lombok.Data;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

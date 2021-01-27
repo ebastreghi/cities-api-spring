@@ -1,4 +1,4 @@
-package com.github.ebastreghi.citiesapispring.staties;
+package com.github.ebastreghi.citiesapispring.entity;
 
 import java.util.List;
 import javax.persistence.Basic;
@@ -10,7 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import com.github.ebastreghi.citiesapispring.countries.Country;
+import com.github.ebastreghi.citiesapispring.entity.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.Data;
 import org.hibernate.annotations.Type;

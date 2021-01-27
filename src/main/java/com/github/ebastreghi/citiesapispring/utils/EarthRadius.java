@@ -1,4 +1,4 @@
-package com.github.ebastreghi.citiesapispring.distances;
+package com.github.ebastreghi.citiesapispring.utils;
 
 public enum EarthRadius {
     METERS("m", 6378168),

@@ -1,4 +1,4 @@
-package com.github.ebastreghi.citiesapispring.distances.service;
+package com.github.ebastreghi.citiesapispring.service;
 
 import static java.lang.Math.atan2;
 import static java.lang.Math.cos;
@@ -6,13 +6,11 @@ import static java.lang.Math.sin;
 import static java.lang.Math.sqrt;
 import static java.lang.Math.toRadians;
 
-
 import java.util.Arrays;
 import java.util.List;
-
-import com.github.ebastreghi.citiesapispring.cities.City;
-import com.github.ebastreghi.citiesapispring.cities.repository.CityRepository;
-import com.github.ebastreghi.citiesapispring.distances.EarthRadius;
+import com.github.ebastreghi.citiesapispring.entity.City;
+import com.github.ebastreghi.citiesapispring.repository.CityRepository;
+import com.github.ebastreghi.citiesapispring.utils.EarthRadius;
 import com.github.ebastreghi.citiesapispring.utils.StringLocationUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

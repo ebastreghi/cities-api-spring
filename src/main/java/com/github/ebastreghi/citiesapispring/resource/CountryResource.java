@@ -1,6 +1,7 @@
-package com.github.ebastreghi.citiesapispring.countries;
+package com.github.ebastreghi.citiesapispring.resource;
 
-import com.github.ebastreghi.citiesapispring.countries.repository.CountryRepository;
+import com.github.ebastreghi.citiesapispring.entity.Country;
+import com.github.ebastreghi.citiesapispring.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,6 +1,6 @@
-package com.github.ebastreghi.citiesapispring.cities.repository;
+package com.github.ebastreghi.citiesapispring.repository;
 
-import com.github.ebastreghi.citiesapispring.cities.City;
+import com.github.ebastreghi.citiesapispring.entity.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
